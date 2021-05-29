@@ -1,0 +1,112 @@
+---
+title: "ArcGIS Pro <br/> Nivel Básico"
+subtitle: "<br/> Marvin J. Quispe Sedano "
+author: "Environmental Data Scientist <br/><br/> <img src='../img/arcgisgif.gif' alt='Arcgis' width='50' height='50'> <br/>"
+date: "Lima, 2020"
+output:
+  xaringan::moon_reader:
+    css: "../my-theme.css"
+    lib_dir: libs
+    nature:
+      highlightLines: true
+      highlightStyle: solarized-dark
+      countIncrementalSlides: true
+      
+---
+
+```{r child = "../setup.Rmd"}
+```
+
+```{r packages, echo=FALSE, message=FALSE, warning=FALSE}
+# AGREGAR PAQUETES A UTILIZAR
+
+```
+class: inverse, center, middle
+
+## CLASE 2 
+### INTRODUCCIÓN AL USO DE ARCGIS PRO
+
+---
+
+## ¿Qué es ArcGIS Pro?
+
+- ArcGIS Pro es un software, perteneciente a la familia de aplicaciones ArcGIS Desktop de la empresa ESRI, diseñado para la gestión de datos espaciales de manera rápida y eficiente.
+- ArcGIS Pro presenta una interfaz moderna y esta diseñado para conectarse a la Web.
+
+
+  <img src='img/spatialdata.png' width='75%' height='75%' class='centerimage'>
+
+---
+
+## Estructura de un proyecto
+
+- En ArcGIS Pro se trabaja con una estructura de organización del flujo de trabajo que se denomina proyecto.
+- Un proyecto es una colección de elementos relacionados a un objetivo en común, consta de un archivo principal con una extensión ".aprx" y una estructura de carpetas diseñada para contener los datos del proyecto.
+
+
+  <img src='img/arcgispro-proj.png' width='65%' height='65%' class='centerimage'>
+
+---
+
+## Vistas de mapa 
+
+- Un proyecto de ArcGIS Pro puede contener múltiples vistas de sus elementos, diferenciados principalmente por el ángulo o zoom seleccionado.
+- Los proyectos en ArcGIS pueden contener múltiples mapas, en los cuales podemos visualizar nuestros datos tanto en 2D como en 3D.
+- Las vistas de dos o más mapas se pueden vincular.
+
+
+  <img src='img/map-vista.png' width='65%' height='65%' class='centerimage'>
+
+---
+
+class: inverse, center, middle
+
+## EJEMPLO APLICATIVO 01
+
+### CREACIÓN DE UN PROYECTO DE MULTIPLES VISTAS DE LA CUENCA FORTALEZA
+
+---
+
+## Edición 
+
+- La mayoría de datos espaciales requieren actualización debido a la constante modificación del mundo real ocasionada por la interacción hombre-ambiente.
+- El flujo de trabajo de la edición en ArcGIS Pro suele ser en su mayoría la creación y modificación de entidades.
+
+
+  <img src='img/arcgispro-edit.png' width='60%' height='60%' class='centerimage'>
+
+---
+
+class: inverse, center, middle
+
+## EJEMPLO APLICATIVO 02
+
+### CREACIÓN Y MODIFICACIÓN DE UN SHAPEFILE DE ESTACIONES METEOROLÓGICAS DE LA CUENCA RÍMAC
+
+---
+
+## Análisis
+
+- En los GIS se deben utilizar los datos para resolver problemas o responder preguntas de carácter espacial.
+- El análisis suele estar conformado por el uso de herramientas de geoprocesamiento y/o inspecciones visuales de los datos espaciales.
+
+
+  <img src='img/arcgispro-analisis.png' width='45%' height='45%' class='centerimage'>
+
+---
+
+<br/>
+
+<img src='img/datagis1.gif' width='100%' height='100%' class='centerimage'>
+
+---
+
+
+<img src='img/datagis2.gif' width='95%' height='95%' class='centerimage'>
+
+---
+
+class: inverse, center, middle
+
+# GRACIAS! <br/>  <a href="mailto: marvinjqs@gmail.com"> <img alt="gmail" src="../img/gmail-logo.gif" width='20%' height='50%'> </a> 
+

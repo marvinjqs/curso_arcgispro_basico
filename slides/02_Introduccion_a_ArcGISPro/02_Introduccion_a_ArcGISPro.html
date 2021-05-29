@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>ArcGIS   Nivel Intermedio</title>
+    <title>ArcGIS Pro   Nivel Básico</title>
     <meta charset="utf-8" />
     <meta name="author" content="Environmental Data Scientist      " />
     <script src="libs/header-attrs/header-attrs.js"></script>
@@ -13,7 +13,7 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
-# ArcGIS <br/> Nivel Intermedio
+# ArcGIS Pro <br/> Nivel Básico
 ## <br/> Marvin J. Quispe Sedano
 ### Environmental Data Scientist <br/><br/> <img src='../img/arcgisgif.gif' alt='Arcgis' width='50' height='50'> <br/>
 ### Lima, 2020
@@ -28,7 +28,7 @@ layout: true
   
 &lt;div class="my-footer"&gt;
 &lt;span&gt;
-&lt;a href="https://github.com/marvinjonathcn/curso_arcgis_intermedio" target="_blank"&gt; ArcGIS - Nivel Intermedio
+&lt;a href="https://github.com/marvinjonathcn/curso_arcgispro_basico" target="_blank"&gt; ArcGIS Pro - Nivel Básico
 &lt;/a&gt;
 &lt;/span&gt;
 &lt;/div&gt; 
@@ -39,17 +39,74 @@ layout: true
 class: inverse, center, middle
 
 ## CLASE 2 
-### GESTIÓN DE DATOS ESPACIALES
+### INTRODUCCIÓN AL USO DE ARCGIS PRO
 
 ---
 
-## ¿Qué son los datos espaciales?
+## ¿Qué es ArcGIS Pro?
 
-- Es un término utilizado para describir cualquier dato que este relacionado o contenga información sobre una ubicación específica dentro de la superficie terrestre.
-- ArcGIS es compatible con una gran cantidad de formatos de datos espaciales, muchos de los cuales son nativos de ESRI &lt;a href="https://desktop.arcgis.com/es/arcmap/latest/manage-data/datatypes/about-geographic-data-formats.htm"&gt;(Ver lista completa)&lt;/a&gt;.
+- ArcGIS Pro es un software, perteneciente a la familia de aplicaciones ArcGIS Desktop de la empresa ESRI, diseñado para la gestión de datos espaciales de manera rápida y eficiente.
+- ArcGIS Pro presenta una interfaz moderna y esta diseñado para conectarse a la Web.
 
 
-  &lt;img src='img/spatialdata.png' width='65%' height='65%' class='centerimage'&gt;
+  &lt;img src='img/spatialdata.png' width='75%' height='75%' class='centerimage'&gt;
+
+---
+
+## Estructura de un proyecto
+
+- En ArcGIS Pro se trabaja con una estructura de organización del flujo de trabajo que se denomina proyecto.
+- Un proyecto es una colección de elementos relacionados a un objetivo en común, consta de un archivo principal con una extensión ".aprx" y una estructura de carpetas diseñada para contener los datos del proyecto.
+
+
+  &lt;img src='img/arcgispro-proj.png' width='65%' height='65%' class='centerimage'&gt;
+
+---
+
+## Vistas de mapa 
+
+- Un proyecto de ArcGIS Pro puede contener múltiples vistas de sus elementos, diferenciados principalmente por el ángulo o zoom seleccionado.
+- Los proyectos en ArcGIS pueden contener múltiples mapas, en los cuales podemos visualizar nuestros datos tanto en 2D como en 3D.
+- Las vistas de dos o más mapas se pueden vincular.
+
+
+  &lt;img src='img/map-vista.png' width='65%' height='65%' class='centerimage'&gt;
+
+---
+
+class: inverse, center, middle
+
+## EJEMPLO APLICATIVO 01
+
+### CREACIÓN DE UN PROYECTO DE MULTIPLES VISTAS DE LA CUENCA FORTALEZA
+
+---
+
+## Edición 
+
+- La mayoría de datos espaciales requieren actualización debido a la constante modificación del mundo real ocasionada por la interacción hombre-ambiente.
+- El flujo de trabajo de la edición en ArcGIS Pro suele ser en su mayoría la creación y modificación de entidades.
+
+
+  &lt;img src='img/arcgispro-edit.png' width='60%' height='60%' class='centerimage'&gt;
+
+---
+
+class: inverse, center, middle
+
+## EJEMPLO APLICATIVO 02
+
+### CREACIÓN Y MODIFICACIÓN DE UN SHAPEFILE DE ESTACIONES METEOROLÓGICAS DE LA CUENCA RÍMAC
+
+---
+
+## Análisis
+
+- En los GIS se deben utilizar los datos para resolver problemas o responder preguntas de carácter espacial.
+- El análisis suele estar conformado por el uso de herramientas de geoprocesamiento y/o inspecciones visuales de los datos espaciales.
+
+
+  &lt;img src='img/arcgispro-analisis.png' width='45%' height='45%' class='centerimage'&gt;
 
 ---
 
@@ -63,146 +120,6 @@ class: inverse, center, middle
 &lt;img src='img/datagis2.gif' width='95%' height='95%' class='centerimage'&gt;
 
 ---
-
-class: inverse, center, middle
-
-## BASES DE DATOS ESPACIALES
-
----
-
-## ¿Qué es una base de datos espacial?
-
-- Es un conjunto de datos espaciales pertenecientes a un mismo contexto y almacenados sitemáticamente para mejorar la eficiencia en su uso. 
-- ArcGIS nos da la posibilidad de poder conectarnos con distintos formatos de bases de datos, la mayor parte de estos requiere instalaciones y configuraciones previas &lt;a href="https://desktop.arcgis.com/es/arcmap/latest/manage-data/databases/database-connections-desktop.htm"&gt;(Ver lista completa)&lt;/a&gt;.
-
-
-&lt;img src='img/spatialdb.png' width='40%' height='40%' class='centerimage'&gt;
-
----
-
-## Geodatabase
-
-- Un geodatabase es una colección de datos espaciales de varios tipos contenidos en una carpeta de sistemas de archivo común, una base de datos Microsoft Access o una base de datos relacional multiusario DBSM.
-
-&lt;br/&gt;
-
-&lt;img src='img/geodatabase.png' width='80%' height='80%' class='centerimage'&gt;
-
----
-
-## Tipos de Geodatabase
-
-&lt;br/&gt; 
-
-&lt;img src='img/tiposdegdb.png' width='100%' height='100%' class='centerimage'&gt;
-
----
-
-class: inverse, center, middle
-
-## TIPOS DE DATOS ESPACIALES EN ArcGIS
-
----
-
-## Feature class
-
-- Un feature class &lt;i&gt;(en español clase de entidad)&lt;/i&gt; es una colección de entidades geográficas que comparten el mismo tipo de geometría y los mismos campos de atributo para un área común.
-
-
-&lt;img src='img/featureclass.png' width='100%' height='100%' class='centerimage'&gt;
-
----
-
-## Raster dataset
-
-- Un raster dataset consiste en una matriz de celdas (píxeles) organizadas en filas y columnas donde cada celda contiene un valor que representa información de alguna variable en particular.
-
-&lt;br/&gt; 
-
-&lt;img src='img/raster.gif' width='100%' height='100%' class='centerimage'&gt;
-
----
-
-## Table
-
-- Las tablas contienen información alfanumérica (caracteres y números), que puede o no estar asociada a un elemento espacial, ordenada en filas (registros) y columnas (campos).
-
-&lt;img src='img/table.png' width='50%' height='50%' class='centerimage'&gt;
-
----
-
-## Feature dataset
-
-- Es una colección de feature class que comparten un SCR.
-
-## Raster catalog
-
-- Es una colección de raster dataset.
-
-## Entre otros ...
-
----
-
-
-class: inverse, center, middle
-
-## PAQUETES DE ArcGIS
-
----
-
-## Layer (.lyr)
-
-- Es un archivo que almacena la ruta a un conjunto de datos de origen y otras propiedades como la simbología y el etiquetado.
-
-## Layer package (.lpk)
-
-- Es un archivo que almacena un conjunto de datos, la cartografía y otras propiedades como la simbología y el etiquetado.
-
-## Map package (.mpk)
-
-- Es un archivo que almacena un proyecto de ArcMAP (.mxd), los conjunto de datos usados en el proyecto, la cartografía y otras propiedades como la simbología y el etiquetado.
-- Es la mejor manera de compartir proyectos completos de ArcMap.
-
-
----
-
-
-class: center
-
-# .instructions[IMPORTANTE !!]
-
-- Los siguientes caracteres causan problemas en nombres:
-
-.instructions[
-~, ` , ! , @, # , $ , % , ^ , &amp; , (,) , - , + , = , {,} , 
-
-[,], ; , \ , / , : , * , ? , ' , " , &lt; , &gt; , | , 
-
-coma (,) , punto (.) y un espacio.
-]
-
-
-&lt;img src='img/errorgif.gif' width='35%' height='35%' class='centerimage'&gt;
-
----
-
-class: inverse, center, middle
-
-## EJEMPLO APLICATIVO 01
-
-### CREACIÓN DE UNA BASE DE DATOS ESPACIAL DE LA PROVINCIA DE LIMA
-
----
-
-
-class: inverse, center, middle
-
-## EJEMPLO APLICATIVO 02
-
-### CREACIÓN DE PAQUETES DE DATOS ESPACIALES DEL DISTRITO DE LA MOLINA
-
----
-
 
 class: inverse, center, middle
 
