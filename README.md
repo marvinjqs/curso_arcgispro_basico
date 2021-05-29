@@ -44,8 +44,7 @@ Los Sistemas de Información Geográfica (GIS) nos ayudan en la integración de 
 | &nbsp;  &nbsp;  &nbsp;  &nbsp;• Servicios WMS |
 
 
-| 🌏 CLASE 2: [INTRODUCCIÓN AL USO DE ArcGIS Pro]
-(https://marvinjonathcn.github.io/curso_arcgis_basico/slides/02_Introduccion_a_ArcGISPro/02_Introduccion_a_ArcGISPro.html)  &nbsp;  |
+| 🌏 CLASE 2: [INTRODUCCIÓN AL USO DE ArcGIS Pro](https://marvinjonathcn.github.io/curso_arcgis_basico/slides/02_Introduccion_a_ArcGISPro/02_Introduccion_a_ArcGISPro.html)  &nbsp;  |
 |:---------------------------------------------------------------|
 | &nbsp;  &nbsp;  &nbsp;  &nbsp;• ¿Qué es ArcGIS Pro? |
 | &nbsp;  &nbsp;  &nbsp;  &nbsp;• Estructura de un proyecto en ArcGIS Pro |
