@@ -1,5 +1,5 @@
 <h2 align="center">
-  <a href="https://marvinjonathcn.github.io/curso_arcgis_intermedio/slides/00_Presentacion/00_Presentacion.html" title="ArcGIS-Intermedio">
+  <a href="https://marvinjonathcn.github.io/curso_arcgispro_basico/slides/00_Presentacion/00_Presentacion.html" title="ArcGIS-Intermedio">
     <img alt="Logo-arcgis" src="https://www.aeroterra.com/content/dam/esrisites/en-us/common/icons/product-logos/ArcGIS-Pro.png" width="200px" height="200px" />
   </a>
   <br /><br />
