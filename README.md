@@ -1,6 +1,6 @@
 <h2 align="center">
   <a href="https://marvinjonathcn.github.io/curso_arcgis_intermedio/slides/00_Presentacion/00_Presentacion.html" title="ArcGIS-Intermedio">
-    <img alt="Logo-arcgis" src="https://logosolusa.com/wp-content/uploads/parser/ESRI-ArcGIS-Logo-1.png" width="200px" height="200px" />
+    <img alt="Logo-arcgis" src="https://www.aeroterra.com/content/dam/esrisites/en-us/common/icons/product-logos/ArcGIS-Pro.png" width="200px" height="200px" />
   </a>
   <br /><br />
   SISTEMAS DE INFORMACIÓN GEOGRÁFICA CON ArcGIS Pro </h2>
@@ -25,7 +25,7 @@ Los Sistemas de Información Geográfica (GIS) nos ayudan en la integración de 
 
 ### TEMARIO
 
-| 🌏 CLASE 1: [FUNDAMENTOS DE LOS SISTEMAS DE INFORMACIÓN GEOGRÁFICA](https://marvinjonathcn.github.io/curso_arcgis_basico/slides/01_Fundamentos_de_los_GIS/01_Fundamentos_de_los_GIS.html)  &nbsp;  |
+| 🌏 CLASE 1: [FUNDAMENTOS DE LOS SISTEMAS DE INFORMACIÓN GEOGRÁFICA](https://marvinjonathcn.github.io/curso_arcgispro_basico/slides/01_Fundamentos_de_los_GIS/01_Fundamentos_de_los_GIS.html)  &nbsp;  |
 |:---------------------------------------------------------------|
 | &nbsp;  &nbsp;  &nbsp;  &nbsp;• ¿Qué son los GIS? |
 | &nbsp;  &nbsp;  &nbsp;  &nbsp;• Componentes de los GIS |
@@ -44,7 +44,7 @@ Los Sistemas de Información Geográfica (GIS) nos ayudan en la integración de 
 | &nbsp;  &nbsp;  &nbsp;  &nbsp;• Servicios WMS |
 
 
-| 🌏 CLASE 2: [INTRODUCCIÓN AL USO DE ArcGIS Pro](https://marvinjonathcn.github.io/curso_arcgis_basico/slides/02_Introduccion_a_ArcGISPro/02_Introduccion_a_ArcGISPro.html)  &nbsp;  |
+| 🌏 CLASE 2: [INTRODUCCIÓN AL USO DE ArcGIS Pro](https://marvinjonathcn.github.io/curso_arcgispro_basico/slides/02_Introduccion_a_ArcGISPro/02_Introduccion_a_ArcGISPro.html)  &nbsp;  |
 |:---------------------------------------------------------------|
 | &nbsp;  &nbsp;  &nbsp;  &nbsp;• ¿Qué es ArcGIS Pro? |
 | &nbsp;  &nbsp;  &nbsp;  &nbsp;• Estructura de un proyecto en ArcGIS Pro |
